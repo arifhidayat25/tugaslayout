@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(53, 177, 199);
+    margin: 0 ;
+    width: 100%;
+}
+.header {
+    color: black;
+    background-color: rgb(11, 212, 247);
+    width: 100%;
+    padding: 3px 5px;
+    margin: 0px;
+}
+.header h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    height: 60px;
+    background-color: rgb(11, 212, 247);
+    margin: 0px;
+   
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+.a {
+    text-decoration: none;
+    background-color: rgb(11, 212, 247);
+    margin: 15px;
+    padding: 10px 7px;
+    color: black;
+}
+.a:hover {
+    background-color: grey;
+}
+.box img {
+   float: left;
+   margin: 5px;
+}
+.box {
+    width: 700px;
+    margin: 5px;
+}
+.des {
+    line-height: 40px;
+    font-size: 16px;
+    max-height: calc(40px * 4);
+    overflow: hidden;
+}
+.sel {
+height: 60px;
+
+}
+.sel a{
+    background-color: rgb(21, 203, 235);
+    text-decoration: none;
+    padding: 7px 5px;
+    color: black;
+    cursor: pointer;
+}
+.sel a:hover{
+    background-color: rgb(53, 177, 199);
+}
+.tab {
+    margin-left: 10em;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(53, 177, 199);
+    font-size: 25px;
+    margin: 10px auto;
+    border: 3px solid black;
+}
+.log{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 100px;
+}
+.log h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    color: black;
+}
+.profil {
+    height: 100px;
+}
+footer {
+    background-color: rgba(27, 27, 27, 1);
+    padding: 10px 0;
+    margin-top: 10px;
+  }
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(53, 177, 199);
+    margin-left: 550px;
+}
+.isi{
+    font-size: 20px;
+    display: block;
+}
+.cont {
+    margin-left: 1em;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(53, 177, 199);
+    font-size: 25px;
+}
+.cont a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
